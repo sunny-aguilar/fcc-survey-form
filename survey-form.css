@@ -50,3 +50,9 @@ button {
 	padding: 18px 10px 18px 10px;
 	box-sizing: border-box;
 }
+
+/* Unordered List Items */
+ul {
+	list-style-type: none;
+}
+
