@@ -1,5 +1,7 @@
 /* FCC Survey Form */
 
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,500,600,700');
+
 :root { font: 20px/1.2 "Encode Sans Condensed", sans-serif; } /* or html */
 
 
@@ -19,11 +21,7 @@ main {
     padding: 0.1in 0;
     /* border-bottom: 1px solid hsl(000, 0%, 85%); */ }
 
-main * {
-    grid-column: start / end;
-    /* grid-column is shorthand for properties below*/
-    /* grid-column-start: start;
-    grid-column-start: end; */ }
+main * { grid-column: start / end; }
 
 @media (max-width: 8.5in) {
     main {
@@ -44,3 +42,13 @@ main * {
 }
 
 h1 { font: 700 2rem "Encode Sans Condensed"; color: hsl(000, 0%, 33%); }
+
+p#description { text-align: justify; }
+
+.capitalize { text-transform: capitalize; }
+
+/* grid columns */
+.size-1 { grid-column: 4/5; }
+.size-2 { grid-column: 3/6; }
+.size-3 { grid-column: 2/7; }
+.size-4 { grid-column: 1/8; }
