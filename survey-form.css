@@ -41,11 +41,7 @@ main * { grid-column: start / end; }
     }
 }
 
-h1 { font: 700 2rem "Encode Sans Condensed"; color: hsl(000, 0%, 33%); }
 
-p#description { text-align: justify; }
-
-.capitalize { text-transform: capitalize; }
 
 /* grid columns */
 .size-1 { grid-column: 4/5; }
