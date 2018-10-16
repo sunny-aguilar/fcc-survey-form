@@ -10,8 +10,9 @@ body, body * {
 	box-sizing:      unset;
 	padding:         unset;
 	font-size:       unset;
-	color:           unset;
+	color:           rgb(141, 141, 141);;
 	text-decoration: unset;
+	background-color: hsla(0, 0%, 0%, 0.9);
 }
 
 /* top breaks */
@@ -49,6 +50,7 @@ button {
 	width: 100%;
 	padding: 18px 10px 18px 10px;
 	box-sizing: border-box;
+	border: 1px white solid;
 }
 
 /* Unordered List Items */
