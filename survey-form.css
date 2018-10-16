@@ -16,6 +16,7 @@ body, body * {
 
 /* top breaks */
 .t-break-1 { margin-top: 40px;}
+.t-break-2 { margin-top: 20px;}
 
 /* bottom breaks */
 .b-break-1 { margin-bottom: 15px; }
