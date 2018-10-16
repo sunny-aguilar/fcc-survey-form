@@ -14,12 +14,16 @@ body, body * {
 	text-decoration: unset;
 }
 
-.break-1 { margin-bottom: 15px; }
+/* top breaks */
+.t-break-1 { margin-top: 40px;}
+
+/* bottom breaks */
+.b-break-1 { margin-bottom: 15px; }
 
 input {
 	display: block;
 	padding: 18px 10px 18px 10px;
 	width: 100%;
 	box-sizing: border-box;
-	border: 1px grey solid; 
+	border: 1px grey solid;
 }
